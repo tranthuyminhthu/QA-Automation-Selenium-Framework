@@ -1,0 +1,4 @@
+rootProject.name = 'mcareer-automation'
+include 'src:lession01_object:base'
+findProject(':src:lession01_object:base')?.name = 'base'
+
